@@ -26,7 +26,7 @@ nav{
     display: flex;
     background-color:var(--green-color);
     padding: var(--space);
-    color:var(--white-color);
+    color: var(--white-color);
     justify-content: space-between;
     align-items: center;
 }
@@ -68,16 +68,13 @@ nav li a:hover{
 .product{
     padding: var(--space);
     margin-top: -240px;
+    text-align: center;
 }
 
 .product .content{
     background-color:var(--white-color);
     padding: 15px;
     box-shadow: var(--box);
-}
-
-.img_content{
-    text-align: center;
 }
 
 .main_button{
@@ -107,20 +104,23 @@ nav li a:hover{
     margin-left: 30px;
 }
 
+.mencion img{
+    width: 100%;
+}
+
+.tittle{
+    text-align: center;
+}
+
 .menciones{
-    margin-top: -130px;
+    margin-top: -80px;
     padding: 15%;
     display: flex;
-    
 }
 
 .mencion{
     margin: 8px;
-}
 
-.tittle{
-    margin-top: -30px;
-    text-align: center;
 }
 
 .mencion{
