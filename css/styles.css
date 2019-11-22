@@ -196,3 +196,7 @@ footer li a:hover{
 .modulo_pago .main_button{
     margin-top: 10px;
 }
+
+.contact a{
+    color: var(--green-color);
+}
