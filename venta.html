@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <title>BRAND</title>
+</head>
+
+<body>
+    <nav class="fadeInDown">
+        <div class="logo">
+            <img src ="images/logo.png" alt="">
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">Productos y descripcion</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="modulo_pago">
+            <div class="modulo_pago_images">
+                <img src="images/box2.png" alt="">
+            </div>
+                <h3>
+                    Producto 1
+                </h3>
+                <p>Miles de productos hay en el mercado, pero nada como una caja con gatos</p>
+            </div>
+        </div>
+    <div class="col-8">
+        <div class="modulo_pago">
+                <form action="https://www.paypal.com/mx/merchantsignup/applicationChecklist?signupType=CREATE_NEW_ACCOUNT&productIntentId=no_intent&Z3JncnB0=/" method="POST">
+                    <label for="name">Nombre</label><br>
+                    <input type="text" placeholder="" name="name" class="data" required>
+        
+                    <label for="mail">Mail</label><br>
+                    <input type="text" placeholder="" name="mail" class="data" required>
+                    
+                    <label for="tel">Telefóno</label><br>
+                    <input type="text" placeholder="" name="tel" class="data">
+                    <input type="submit" class="main_button" name="submit" value="Confirmar pago" required>
+                </form>
+                </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="term">
+            <li><a href="#">Terminos y condiciones</a></li>
+
+    </div>
+    <div class="contacto">
+            <li><a href="#">contacto@outlook.com</a></li>
+    </div>
+</footer>
+
+<script src="./script/script.js"></script>
+</body>
+</html>
